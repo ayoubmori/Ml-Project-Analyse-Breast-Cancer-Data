@@ -33,7 +33,7 @@ def modeling(X,y):
                 evaluator = ModelEvaluator(model, test_size=test_size, threshold=threshold)
                 results = evaluator.evaluate(X_scaled, y_encoded,name,model)
                 with cols[i]:
-                    st.subheader(results.get('Model'),divider=True)
+                    st.subheader(results.get('Model'),divider="gray")
                     st.metric("Accuracy", f"{results.get('Accuracy'):.2f}")
                     st.metric("MAE", f"{results.get('MAE'):.2f}")
                     st.write("Classification Report:")
