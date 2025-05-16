@@ -98,7 +98,7 @@ Train and evaluate three classification models using cross-validation and perfor
 
    ```bash
    git clone https://github.com/ayoubmori/Ml-Project-Analyse-Breast-Cancer-Data.git
-   cd breast-cancer-modeling
+   cd Ml-Project-Analyse-Breast-Cancer-Data
    ```
 
 2. Install dependencies:
